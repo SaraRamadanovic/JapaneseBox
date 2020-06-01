@@ -40,9 +40,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
 
         ArrayList<PrimjerItem> primjerLista = new ArrayList<>();
-        primjerLista.add(new PrimjerItem(R.drawable.ic_android, "Line1", "Line2"));
-        primjerLista.add(new PrimjerItem(R.drawable.ic_restaurant, "Line3", "Line4"));
-        primjerLista.add(new PrimjerItem(R.drawable.ic_room_service, "Line5", "Line6"));
+        primjerLista.add(new PrimjerItem(R.drawable.ic_android, "Nigiri Sushi", "time to prepare: 30 minutes "));
+        primjerLista.add(new PrimjerItem(R.drawable.ic_restaurant, "Mochi dessert", "time to prepare: 20 minutes "));
+        primjerLista.add(new PrimjerItem(R.drawable.ic_room_service, "Ramen Noodles", "time to prepare: 30 minutes "));
+        primjerLista.add(new PrimjerItem(R.drawable.ic_restaurant, "Spicy Salmon Poke Bowl", "time to prepare: 50 minutes"));
 
         mRecycleView = findViewById(R.id.recyclerView);
         mRecycleView.setHasFixedSize(true);
